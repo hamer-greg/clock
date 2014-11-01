@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75071635193AC60700D546C3 /* incrementDial1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7507162E193AC60700D546C3 /* incrementDial1.png */; };
+		75071638193AC60700D546C3 /* NumberTextFieldDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75071633193AC60700D546C3 /* NumberTextFieldDelegate.m */; };
+		7507163A193BC48E00D546C3 /* key.png in Resources */ = {isa = PBXBuildFile; fileRef = 75071639193BC48E00D546C3 /* key.png */; };
+		7507163D1941774300D546C3 /* MoveTextFieldDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7507163C1941774300D546C3 /* MoveTextFieldDelegate.m */; };
+		750716401944E41900D546C3 /* deleteKey.png in Resources */ = {isa = PBXBuildFile; fileRef = 7507163E1944E41900D546C3 /* deleteKey.png */; };
+		750716411944E41900D546C3 /* returnKey.png in Resources */ = {isa = PBXBuildFile; fileRef = 7507163F1944E41900D546C3 /* returnKey.png */; };
+		755D8134199B0F4B00824315 /* NumbrDialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 755D8132199B0F4B00824315 /* NumbrDialViewController.m */; };
+		755D8135199B0F4B00824315 /* NumbrDialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 755D8133199B0F4B00824315 /* NumbrDialViewController.xib */; };
+		755D813919A1820A00824315 /* dial160.svg in Resources */ = {isa = PBXBuildFile; fileRef = 755D813819A1820A00824315 /* dial160.svg */; };
+		755D813D19A2DE2100824315 /* dial160a.png in Resources */ = {isa = PBXBuildFile; fileRef = 755D813C19A2DE2100824315 /* dial160a.png */; };
+		755D813F19A57DFC00824315 /* landscapeKey.png in Resources */ = {isa = PBXBuildFile; fileRef = 755D813E19A57DFC00824315 /* landscapeKey.png */; };
+		8246D906177A76AF003B630D /* ClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8246D905177A76AF003B630D /* ClockViewController.m */; };
+		8246D90917889DF4003B630D /* TimeDelayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8246D90817889DF4003B630D /* TimeDelayDataSource.m */; };
+		8246D90C1788A402003B630D /* TimeDelay.m in Sources */ = {isa = PBXBuildFile; fileRef = 8246D90B1788A402003B630D /* TimeDelay.m */; };
+		8246D90F1789E049003B630D /* TimeControlCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8246D90E1789E049003B630D /* TimeControlCell.m */; };
+		8246D91217D0F039003B630D /* ChessClockDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8246D91117D0F039003B630D /* ChessClockDataModel.m */; };
+		825C778B16E3F62F0005611B /* CClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 825C778A16E3F62F0005611B /* CClock.m */; };
+		825C778E16ED54530005611B /* TimeControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 825C778D16ED54530005611B /* TimeControl.m */; };
+		82694A0B1825B3860027D845 /* clock3small.png in Resources */ = {isa = PBXBuildFile; fileRef = 82694A061825B3860027D845 /* clock3small.png */; };
+		82694A0C1825B3860027D845 /* clockIcon60.png in Resources */ = {isa = PBXBuildFile; fileRef = 82694A071825B3860027D845 /* clockIcon60.png */; };
+		82694A0D1825B3860027D845 /* clockIcon76.png in Resources */ = {isa = PBXBuildFile; fileRef = 82694A081825B3860027D845 /* clockIcon76.png */; };
+		82694A0E1825B3860027D845 /* clockIcon120.png in Resources */ = {isa = PBXBuildFile; fileRef = 82694A091825B3860027D845 /* clockIcon120.png */; };
+		82694A0F1825B3860027D845 /* clockIcon152.png in Resources */ = {isa = PBXBuildFile; fileRef = 82694A0A1825B3860027D845 /* clockIcon152.png */; };
+		82694A121825B3990027D845 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 82694A101825B3990027D845 /* iTunesArtwork.png */; };
+		82694A131825B3990027D845 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82694A111825B3990027D845 /* iTunesArtwork@2x.png */; };
+		826A3CF618309A6F002F9267 /* clockIcon57.png in Resources */ = {isa = PBXBuildFile; fileRef = 826A3CF518309A6F002F9267 /* clockIcon57.png */; };
+		8275EC5F17F8FA91009EF546 /* IncrementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8275EC5E17F8FA91009EF546 /* IncrementViewController.m */; };
+		827875561825B9D3000704CC /* clockIcon114.png in Resources */ = {isa = PBXBuildFile; fileRef = 827875301825B9D3000704CC /* clockIcon114.png */; };
+		827875591825B9D3000704CC /* clockIcon29.png in Resources */ = {isa = PBXBuildFile; fileRef = 827875331825B9D3000704CC /* clockIcon29.png */; };
+		8278755A1825B9D3000704CC /* clockIcon58.png in Resources */ = {isa = PBXBuildFile; fileRef = 827875341825B9D3000704CC /* clockIcon58.png */; };
+		8278755D1825B9D3000704CC /* clockIcon80.png in Resources */ = {isa = PBXBuildFile; fileRef = 827875371825B9D3000704CC /* clockIcon80.png */; };
+		8296A2F617D689C4004D015E /* TimeRemainingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8296A2F517D689C3004D015E /* TimeRemainingViewController.m */; };
+		829C4B9616B5F9EC00B13739 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829C4B9516B5F9EC00B13739 /* UIKit.framework */; };
+		829C4B9816B5F9EC00B13739 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829C4B9716B5F9EC00B13739 /* Foundation.framework */; };
+		829C4B9A16B5F9EC00B13739 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829C4B9916B5F9EC00B13739 /* CoreGraphics.framework */; };
+		829C4BA016B5F9EC00B13739 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 829C4B9E16B5F9EC00B13739 /* InfoPlist.strings */; };
+		829C4BA216B5F9EC00B13739 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 829C4BA116B5F9EC00B13739 /* main.m */; };
+		829C4BA616B5F9EC00B13739 /* ChessClockAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 829C4BA516B5F9EC00B13739 /* ChessClockAppDelegate.m */; };
+		829C4BA816B5F9EC00B13739 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 829C4BA716B5F9EC00B13739 /* Default.png */; };
+		829C4BAA16B5F9EC00B13739 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 829C4BA916B5F9EC00B13739 /* Default@2x.png */; };
+		829C4BAC16B5F9EC00B13739 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 829C4BAB16B5F9EC00B13739 /* Default-568h@2x.png */; };
+		829C4BAF16B5F9EC00B13739 /* ChessClockRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829C4BAE16B5F9EC00B13739 /* ChessClockRootViewController.m */; };
+		829C4BB216B5F9EC00B13739 /* ChessClockDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829C4BB116B5F9EC00B13739 /* ChessClockDataViewController.m */; };
+		829C4BB516B5F9EC00B13739 /* ChessClockModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829C4BB416B5F9EC00B13739 /* ChessClockModelController.m */; };
+		829C4BB816B5F9EC00B13739 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 829C4BB616B5F9EC00B13739 /* MainStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7507162E193AC60700D546C3 /* incrementDial1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = incrementDial1.png; path = ChessClock2/spinner/incrementDial1.png; sourceTree = "<group>"; };
+		75071632193AC60700D546C3 /* NumberTextFieldDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NumberTextFieldDelegate.h; path = ChessClock2/spinner/NumberTextFieldDelegate.h; sourceTree = "<group>"; };
+		75071633193AC60700D546C3 /* NumberTextFieldDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NumberTextFieldDelegate.m; path = ChessClock2/spinner/NumberTextFieldDelegate.m; sourceTree = "<group>"; };
+		75071639193BC48E00D546C3 /* key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = key.png; path = ChessClock2/spinner/key.png; sourceTree = "<group>"; };
+		7507163B1941774300D546C3 /* MoveTextFieldDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveTextFieldDelegate.h; sourceTree = "<group>"; };
+		7507163C1941774300D546C3 /* MoveTextFieldDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveTextFieldDelegate.m; sourceTree = "<group>"; };
+		7507163E1944E41900D546C3 /* deleteKey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = deleteKey.png; path = ChessClock2/spinner/deleteKey.png; sourceTree = "<group>"; };
+		7507163F1944E41900D546C3 /* returnKey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = returnKey.png; path = ChessClock2/spinner/returnKey.png; sourceTree = "<group>"; };
+		755D8131199B0F4B00824315 /* NumbrDialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumbrDialViewController.h; sourceTree = "<group>"; };
+		755D8132199B0F4B00824315 /* NumbrDialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumbrDialViewController.m; sourceTree = "<group>"; };
+		755D8133199B0F4B00824315 /* NumbrDialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NumbrDialViewController.xib; sourceTree = "<group>"; };
+		755D813819A1820A00824315 /* dial160.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dial160.svg; sourceTree = "<group>"; };
+		755D813C19A2DE2100824315 /* dial160a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dial160a.png; path = ChessClock2/spinner/dial160a.png; sourceTree = "<group>"; };
+		755D813E19A57DFC00824315 /* landscapeKey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = landscapeKey.png; path = ChessClock2/spinner/landscapeKey.png; sourceTree = "<group>"; };
+		8246D904177A76AF003B630D /* ClockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClockViewController.h; path = ../ClockViewController.h; sourceTree = "<group>"; };
+		8246D905177A76AF003B630D /* ClockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClockViewController.m; path = ../ClockViewController.m; sourceTree = "<group>"; };
+		8246D90717889DF4003B630D /* TimeDelayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeDelayDataSource.h; sourceTree = "<group>"; };
+		8246D90817889DF4003B630D /* TimeDelayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeDelayDataSource.m; sourceTree = "<group>"; };
+		8246D90A1788A401003B630D /* TimeDelay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeDelay.h; sourceTree = "<group>"; };
+		8246D90B1788A402003B630D /* TimeDelay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeDelay.m; sourceTree = "<group>"; };
+		8246D90D1789E049003B630D /* TimeControlCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeControlCell.h; sourceTree = "<group>"; };
+		8246D90E1789E049003B630D /* TimeControlCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeControlCell.m; sourceTree = "<group>"; };
+		8246D91017D0F039003B630D /* ChessClockDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessClockDataModel.h; sourceTree = "<group>"; };
+		8246D91117D0F039003B630D /* ChessClockDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessClockDataModel.m; sourceTree = "<group>"; };
+		825C778916E3F62F0005611B /* CClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CClock.h; sourceTree = "<group>"; };
+		825C778A16E3F62F0005611B /* CClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CClock.m; sourceTree = "<group>"; };
+		825C778C16ED54530005611B /* TimeControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeControl.h; sourceTree = "<group>"; };
+		825C778D16ED54530005611B /* TimeControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeControl.m; sourceTree = "<group>"; };
+		82694A061825B3860027D845 /* clock3small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock3small.png; sourceTree = "<group>"; };
+		82694A071825B3860027D845 /* clockIcon60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clockIcon60.png; sourceTree = "<group>"; };
+		82694A081825B3860027D845 /* clockIcon76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clockIcon76.png; sourceTree = "<group>"; };
+		82694A091825B3860027D845 /* clockIcon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clockIcon120.png; sourceTree = "<group>"; };
+		82694A0A1825B3860027D845 /* clockIcon152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clockIcon152.png; sourceTree = "<group>"; };
+		82694A101825B3990027D845 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		82694A111825B3990027D845 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		826A3CF518309A6F002F9267 /* clockIcon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clockIcon57.png; sourceTree = "<group>"; };
+		8275EC5D17F8FA91009EF546 /* IncrementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IncrementViewController.h; sourceTree = "<group>"; };
+		8275EC5E17F8FA91009EF546 /* IncrementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IncrementViewController.m; sourceTree = "<group>"; };
+		827875301825B9D3000704CC /* clockIcon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clockIcon114.png; sourceTree = "<group>"; };
+		827875331825B9D3000704CC /* clockIcon29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clockIcon29.png; sourceTree = "<group>"; };
+		827875341825B9D3000704CC /* clockIcon58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clockIcon58.png; sourceTree = "<group>"; };
+		827875371825B9D3000704CC /* clockIcon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clockIcon80.png; sourceTree = "<group>"; };
+		8296A2F417D689C3004D015E /* TimeRemainingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeRemainingViewController.h; sourceTree = "<group>"; };
+		8296A2F517D689C3004D015E /* TimeRemainingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeRemainingViewController.m; sourceTree = "<group>"; };
+		829C4B9116B5F9EC00B13739 /* ChessClock2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChessClock2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		829C4B9516B5F9EC00B13739 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		829C4B9716B5F9EC00B13739 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		829C4B9916B5F9EC00B13739 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		829C4B9D16B5F9EC00B13739 /* ChessClock2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChessClock2-Info.plist"; sourceTree = "<group>"; };
+		829C4B9F16B5F9EC00B13739 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		829C4BA116B5F9EC00B13739 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		829C4BA316B5F9EC00B13739 /* ChessClock2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChessClock2-Prefix.pch"; sourceTree = "<group>"; };
+		829C4BA416B5F9EC00B13739 /* ChessClockAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChessClockAppDelegate.h; sourceTree = "<group>"; };
+		829C4BA516B5F9EC00B13739 /* ChessClockAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChessClockAppDelegate.m; sourceTree = "<group>"; };
+		829C4BA716B5F9EC00B13739 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		829C4BA916B5F9EC00B13739 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		829C4BAB16B5F9EC00B13739 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		829C4BAD16B5F9EC00B13739 /* ChessClockRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChessClockRootViewController.h; sourceTree = "<group>"; };
+		829C4BAE16B5F9EC00B13739 /* ChessClockRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChessClockRootViewController.m; sourceTree = "<group>"; };
+		829C4BB016B5F9EC00B13739 /* ChessClockDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChessClockDataViewController.h; sourceTree = "<group>"; };
+		829C4BB116B5F9EC00B13739 /* ChessClockDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChessClockDataViewController.m; sourceTree = "<group>"; };
+		829C4BB316B5F9EC00B13739 /* ChessClockModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChessClockModelController.h; sourceTree = "<group>"; };
+		829C4BB416B5F9EC00B13739 /* ChessClockModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChessClockModelController.m; sourceTree = "<group>"; };
+		829C4BB716B5F9EC00B13739 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		829C4B8E16B5F9EC00B13739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829C4B9616B5F9EC00B13739 /* UIKit.framework in Frameworks */,
+				829C4B9816B5F9EC00B13739 /* Foundation.framework in Frameworks */,
+				829C4B9A16B5F9EC00B13739 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		829C4B8616B5F9EC00B13739 = {
+			isa = PBXGroup;
+			children = (
+				755D813E19A57DFC00824315 /* landscapeKey.png */,
+				755D8131199B0F4B00824315 /* NumbrDialViewController.h */,
+				755D8132199B0F4B00824315 /* NumbrDialViewController.m */,
+				755D8133199B0F4B00824315 /* NumbrDialViewController.xib */,
+				755D813819A1820A00824315 /* dial160.svg */,
+				7507163E1944E41900D546C3 /* deleteKey.png */,
+				7507163F1944E41900D546C3 /* returnKey.png */,
+				75071639193BC48E00D546C3 /* key.png */,
+				7507162E193AC60700D546C3 /* incrementDial1.png */,
+				755D813C19A2DE2100824315 /* dial160a.png */,
+				75071632193AC60700D546C3 /* NumberTextFieldDelegate.h */,
+				75071633193AC60700D546C3 /* NumberTextFieldDelegate.m */,
+				829C4B9B16B5F9EC00B13739 /* ChessClock2 */,
+				829C4B9416B5F9EC00B13739 /* Frameworks */,
+				829C4B9216B5F9EC00B13739 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		829C4B9216B5F9EC00B13739 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				829C4B9116B5F9EC00B13739 /* ChessClock2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		829C4B9416B5F9EC00B13739 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				829C4B9516B5F9EC00B13739 /* UIKit.framework */,
+				829C4B9716B5F9EC00B13739 /* Foundation.framework */,
+				829C4B9916B5F9EC00B13739 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		829C4B9B16B5F9EC00B13739 /* ChessClock2 */ = {
+			isa = PBXGroup;
+			children = (
+				7507163B1941774300D546C3 /* MoveTextFieldDelegate.h */,
+				7507163C1941774300D546C3 /* MoveTextFieldDelegate.m */,
+				826A3CF518309A6F002F9267 /* clockIcon57.png */,
+				82694A101825B3990027D845 /* iTunesArtwork.png */,
+				82694A111825B3990027D845 /* iTunesArtwork@2x.png */,
+				827875331825B9D3000704CC /* clockIcon29.png */,
+				82694A061825B3860027D845 /* clock3small.png */,
+				827875341825B9D3000704CC /* clockIcon58.png */,
+				82694A071825B3860027D845 /* clockIcon60.png */,
+				82694A081825B3860027D845 /* clockIcon76.png */,
+				827875371825B9D3000704CC /* clockIcon80.png */,
+				827875301825B9D3000704CC /* clockIcon114.png */,
+				82694A091825B3860027D845 /* clockIcon120.png */,
+				82694A0A1825B3860027D845 /* clockIcon152.png */,
+				825C778916E3F62F0005611B /* CClock.h */,
+				825C778A16E3F62F0005611B /* CClock.m */,
+				8246D904177A76AF003B630D /* ClockViewController.h */,
+				8246D905177A76AF003B630D /* ClockViewController.m */,
+				8296A2F417D689C3004D015E /* TimeRemainingViewController.h */,
+				8296A2F517D689C3004D015E /* TimeRemainingViewController.m */,
+				829C4BA416B5F9EC00B13739 /* ChessClockAppDelegate.h */,
+				829C4BA516B5F9EC00B13739 /* ChessClockAppDelegate.m */,
+				829C4BAD16B5F9EC00B13739 /* ChessClockRootViewController.h */,
+				829C4BAE16B5F9EC00B13739 /* ChessClockRootViewController.m */,
+				8246D91017D0F039003B630D /* ChessClockDataModel.h */,
+				8246D91117D0F039003B630D /* ChessClockDataModel.m */,
+				829C4BB016B5F9EC00B13739 /* ChessClockDataViewController.h */,
+				829C4BB116B5F9EC00B13739 /* ChessClockDataViewController.m */,
+				829C4BB316B5F9EC00B13739 /* ChessClockModelController.h */,
+				829C4BB416B5F9EC00B13739 /* ChessClockModelController.m */,
+				829C4BB616B5F9EC00B13739 /* MainStoryboard.storyboard */,
+				8275EC5D17F8FA91009EF546 /* IncrementViewController.h */,
+				8275EC5E17F8FA91009EF546 /* IncrementViewController.m */,
+				8246D90D1789E049003B630D /* TimeControlCell.h */,
+				8246D90E1789E049003B630D /* TimeControlCell.m */,
+				829C4B9C16B5F9EC00B13739 /* Supporting Files */,
+				825C778C16ED54530005611B /* TimeControl.h */,
+				825C778D16ED54530005611B /* TimeControl.m */,
+				8246D90717889DF4003B630D /* TimeDelayDataSource.h */,
+				8246D90817889DF4003B630D /* TimeDelayDataSource.m */,
+				8246D90A1788A401003B630D /* TimeDelay.h */,
+				8246D90B1788A402003B630D /* TimeDelay.m */,
+			);
+			path = ChessClock2;
+			sourceTree = "<group>";
+		};
+		829C4B9C16B5F9EC00B13739 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				829C4B9D16B5F9EC00B13739 /* ChessClock2-Info.plist */,
+				829C4B9E16B5F9EC00B13739 /* InfoPlist.strings */,
+				829C4BA116B5F9EC00B13739 /* main.m */,
+				829C4BA316B5F9EC00B13739 /* ChessClock2-Prefix.pch */,
+				829C4BA716B5F9EC00B13739 /* Default.png */,
+				829C4BA916B5F9EC00B13739 /* Default@2x.png */,
+				829C4BAB16B5F9EC00B13739 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		829C4B9016B5F9EC00B13739 /* ChessClock2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 829C4BBB16B5F9EC00B13739 /* Build configuration list for PBXNativeTarget "ChessClock2" */;
+			buildPhases = (
+				829C4B8D16B5F9EC00B13739 /* Sources */,
+				829C4B8E16B5F9EC00B13739 /* Frameworks */,
+				829C4B8F16B5F9EC00B13739 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChessClock2;
+			productName = ChessClock2;
+			productReference = 829C4B9116B5F9EC00B13739 /* ChessClock2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		829C4B8816B5F9EC00B13739 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ChessClock;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = ghamer;
+				TargetAttributes = {
+					829C4B9016B5F9EC00B13739 = {
+						DevelopmentTeam = 74E4GHMTKX;
+					};
+				};
+			};
+			buildConfigurationList = 829C4B8B16B5F9EC00B13739 /* Build configuration list for PBXProject "chessclock2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 829C4B8616B5F9EC00B13739;
+			productRefGroup = 829C4B9216B5F9EC00B13739 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				829C4B9016B5F9EC00B13739 /* ChessClock2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		829C4B8F16B5F9EC00B13739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829C4BA016B5F9EC00B13739 /* InfoPlist.strings in Resources */,
+				755D813D19A2DE2100824315 /* dial160a.png in Resources */,
+				755D8135199B0F4B00824315 /* NumbrDialViewController.xib in Resources */,
+				750716401944E41900D546C3 /* deleteKey.png in Resources */,
+				829C4BA816B5F9EC00B13739 /* Default.png in Resources */,
+				755D813F19A57DFC00824315 /* landscapeKey.png in Resources */,
+				829C4BAA16B5F9EC00B13739 /* Default@2x.png in Resources */,
+				82694A0E1825B3860027D845 /* clockIcon120.png in Resources */,
+				829C4BAC16B5F9EC00B13739 /* Default-568h@2x.png in Resources */,
+				75071635193AC60700D546C3 /* incrementDial1.png in Resources */,
+				8278755D1825B9D3000704CC /* clockIcon80.png in Resources */,
+				82694A0D1825B3860027D845 /* clockIcon76.png in Resources */,
+				827875561825B9D3000704CC /* clockIcon114.png in Resources */,
+				82694A121825B3990027D845 /* iTunesArtwork.png in Resources */,
+				826A3CF618309A6F002F9267 /* clockIcon57.png in Resources */,
+				755D813919A1820A00824315 /* dial160.svg in Resources */,
+				827875591825B9D3000704CC /* clockIcon29.png in Resources */,
+				82694A131825B3990027D845 /* iTunesArtwork@2x.png in Resources */,
+				8278755A1825B9D3000704CC /* clockIcon58.png in Resources */,
+				750716411944E41900D546C3 /* returnKey.png in Resources */,
+				82694A0F1825B3860027D845 /* clockIcon152.png in Resources */,
+				7507163A193BC48E00D546C3 /* key.png in Resources */,
+				82694A0B1825B3860027D845 /* clock3small.png in Resources */,
+				829C4BB816B5F9EC00B13739 /* MainStoryboard.storyboard in Resources */,
+				82694A0C1825B3860027D845 /* clockIcon60.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		829C4B8D16B5F9EC00B13739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829C4BA216B5F9EC00B13739 /* main.m in Sources */,
+				75071638193AC60700D546C3 /* NumberTextFieldDelegate.m in Sources */,
+				829C4BA616B5F9EC00B13739 /* ChessClockAppDelegate.m in Sources */,
+				755D8134199B0F4B00824315 /* NumbrDialViewController.m in Sources */,
+				829C4BAF16B5F9EC00B13739 /* ChessClockRootViewController.m in Sources */,
+				829C4BB216B5F9EC00B13739 /* ChessClockDataViewController.m in Sources */,
+				829C4BB516B5F9EC00B13739 /* ChessClockModelController.m in Sources */,
+				825C778B16E3F62F0005611B /* CClock.m in Sources */,
+				825C778E16ED54530005611B /* TimeControl.m in Sources */,
+				8246D906177A76AF003B630D /* ClockViewController.m in Sources */,
+				8275EC5F17F8FA91009EF546 /* IncrementViewController.m in Sources */,
+				8246D90917889DF4003B630D /* TimeDelayDataSource.m in Sources */,
+				8246D90C1788A402003B630D /* TimeDelay.m in Sources */,
+				8246D90F1789E049003B630D /* TimeControlCell.m in Sources */,
+				8246D91217D0F039003B630D /* ChessClockDataModel.m in Sources */,
+				8296A2F617D689C4004D015E /* TimeRemainingViewController.m in Sources */,
+				7507163D1941774300D546C3 /* MoveTextFieldDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		829C4B9E16B5F9EC00B13739 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				829C4B9F16B5F9EC00B13739 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		829C4BB616B5F9EC00B13739 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				829C4BB716B5F9EC00B13739 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		826A3CF318309827002F9267 /* Release copy */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Greg Hamer (88B67FZN77)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "cf22c3b0-d312-43ea-846d-e19c1b11c554";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release copy";
+		};
+		826A3CF418309827002F9267 /* Release copy */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChessClock2/ChessClock2-Prefix.pch";
+				INFOPLIST_FILE = "ChessClock2/ChessClock2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Release copy";
+		};
+		829C4BB916B5F9EC00B13739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "cf22c3b0-d312-43ea-846d-e19c1b11c554";
+				SDKROOT = iphoneos;
+				"SDKROOT[arch=*]" = iphoneos;
+			};
+			name = Debug;
+		};
+		829C4BBA16B5F9EC00B13739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Greg Hamer (88B67FZN77)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "cf22c3b0-d312-43ea-846d-e19c1b11c554";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		829C4BBC16B5F9EC00B13739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChessClock2/ChessClock2-Prefix.pch";
+				INFOPLIST_FILE = "ChessClock2/ChessClock2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		829C4BBD16B5F9EC00B13739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChessClock2/ChessClock2-Prefix.pch";
+				INFOPLIST_FILE = "ChessClock2/ChessClock2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		829C4B8B16B5F9EC00B13739 /* Build configuration list for PBXProject "chessclock2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				829C4BB916B5F9EC00B13739 /* Debug */,
+				829C4BBA16B5F9EC00B13739 /* Release */,
+				826A3CF318309827002F9267 /* Release copy */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		829C4BBB16B5F9EC00B13739 /* Build configuration list for PBXNativeTarget "ChessClock2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				829C4BBC16B5F9EC00B13739 /* Debug */,
+				829C4BBD16B5F9EC00B13739 /* Release */,
+				826A3CF418309827002F9267 /* Release copy */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 829C4B8816B5F9EC00B13739 /* Project object */;
+}
